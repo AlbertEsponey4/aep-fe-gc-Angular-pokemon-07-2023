@@ -1,0 +1,7 @@
+<div class="container">
+    <div class="row">
+        <div class="col mt-4 text-center " *ngFor="let pokemon of pokemons">
+            <app-pokemon [pokemonName]="pokemon.name" ></app-pokemon>
+        </div>
+    </div>
+</div>
